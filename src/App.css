@@ -147,9 +147,7 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   transform: scale(1.02);
 }
 .farmer_img{
-  width: 60%;
 
-  border-radius: 100%;
 
 /* dashbosrd */
 
@@ -166,81 +164,4 @@ th, td {
   border: 1rem;
   margin-inline: auto;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-/* about */
-.heading{
-  text-align:center;
-  margin:34px;
-  font-size:30px;
-}
-.aboutInfo{
-  color:black;
-  margin: 2rem 5rem;
-}.about{
-  margin:45px;
-  display:flex;
-  justify-content: center;
-  min-height:400px;
-}
-
-.mission,.vision,.achieve{
-   height:320px;
-   margin:14px;
-   max-width:320px;
-   box-shadow: 3px 5px 5px rgba(1,1,1,0.2);
-   border-radius: 1rem;
-   background: radial-gradient(96.41% 96.41% at 5.28% 100%, #FFA7A7 0%, rgba(248, 250, 134, 0.416) 100%) ;
-}
-.mission img{
-  display:flex;
-  margin:auto;
-  height:45px;
-  width:45px;
-}
-.vision img{
-  display:flex;
-  margin:auto;
-  height:45px;
-  width:45px;
-}
-.achieve img{
-  display:flex;
-  margin:auto;
-  height:45px;
-  width:45px;
-}
-.mission:hover{
-  background-color :lightblue;
-   transform:scale(1.02);
-   cursor:pointer;
-   transition: 0.3s ease-in-out;
-}
-.vision:hover{
-  background-color :lightblue;
-   transform:scale(1.02);
-   cursor:pointer;   
-   transition: 0.3s ease-in-out;
-}
-.achieve:hover{
-  background-color :lightblue;
-   transform:scale(1.02);
-   cursor:pointer;  
-   transition: 0.3s ease-in-out;
-}
-.footer{
-  background-color: black;
-  color:white;
-  height:50px;
-
-  text-align:center;
-  padding:12px;
-
-}
-h2{
-  font-size:1.5rem;
-  margin: 30px 114px;
-}
-p{
-  padding:2px 32px;;
 }
