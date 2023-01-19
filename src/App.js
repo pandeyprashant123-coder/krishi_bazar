@@ -1,5 +1,6 @@
 
 import './App.css';
+import { Dashboard } from './components/Dashboard';
 import { Footer } from './components/Footer';
 import { Navbar } from './components/Navbar';
 import { Home } from './pages/Home';
@@ -12,6 +13,7 @@ function App() {
       <Home/>
       {/* <Footer/> */}
       {/* <Product_detail/> */}
+      {/* <Dashboard/> */}
     </div>
   );
 }

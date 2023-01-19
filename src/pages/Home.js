@@ -21,7 +21,7 @@ export const Home = () => {
     </div>
     <div className="available_farmers">
             <h1 className="available">
-                Available Farmers
+                Our Happy Farmers
             </h1>
             <div className="farmer_cards">
                 <div className="farmer_card">
@@ -45,6 +45,80 @@ export const Home = () => {
                     <div className="farmer_detail">
                         <h3 className="name">Yukesh Katwal</h3>
                         <h5 className="occupation">Cauliflower farmer</h5>
+                        <div className="rating">stars</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div className="available_farmers">
+            <h1 className="available">
+                Categories
+            </h1>
+            <div className="farmer_cards">
+                <div className="farmer_card">
+                    <img className='farmer_img' src={Nilesh} alt="" />
+                    <div className="farmer_detail">
+                        <h3 className="name">Grains</h3>
+                    </div>
+                </div>
+                <div className="farmer_card">
+                    <img className='farmer_img' src={Nilesh} alt="" />
+                    <div className="farmer_detail">
+                        <h3 className="name">Vegetables</h3>
+                    </div>
+                </div>
+                <div className="farmer_card">
+                    <img className='farmer_img' src={Nilesh} alt="" />
+                    <div className="farmer_detail">
+                        <h3 className="name">Fruits</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div className="available_farmers">
+            <h1 className="available">
+                Our Products
+            </h1>
+            <div className="farmer_cards">
+                <div className="farmer_card">
+                    <img className='farmer_img' src={Nilesh} alt="" />
+                    <div className="farmer_detail">
+                        <h3 className="name">Cauliflower</h3>
+                        <div className="rating">stars</div>
+                    </div>
+                </div>
+                <div className="farmer_card">
+                    <img className='farmer_img' src={Nilesh} alt="" />
+                    <div className="farmer_detail">
+                        <h3 className="name">Cauliflower</h3>
+                        <div className="rating">stars</div>
+                    </div>
+                </div>
+                <div className="farmer_card">
+                    <img className='farmer_img' src={Nilesh} alt="" />
+                    <div className="farmer_detail">
+                        <h3 className="name">Cauliflower</h3>
+                        <div className="rating">stars</div>
+                    </div>
+                </div>
+                <div className="farmer_card">
+                    <img className='farmer_img' src={Nilesh} alt="" />
+                    <div className="farmer_detail">
+                        <h3 className="name">Cauliflower</h3>
+                        <div className="rating">stars</div>
+                    </div>
+                </div>
+                <div className="farmer_card">
+                    <img className='farmer_img' src={Nilesh} alt="" />
+                    <div className="farmer_detail">
+                        <h3 className="name">Cauliflower</h3>
+                        <div className="rating">stars</div>
+                    </div>
+                </div>
+                <div className="farmer_card">
+                    <img className='farmer_img' src={Nilesh} alt="" />
+                    <div className="farmer_detail">
+                        <h3 className="name">Cauliflower</h3>
                         <div className="rating">stars</div>
                     </div>
                 </div>
