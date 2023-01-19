@@ -16,8 +16,6 @@ function App() {
       {/* <Footer/> */}
       {/* <Product_detail/> */}
       {/* <Dashboard/> */}
-      {/* <Products/> */}
-      {/* <About/> */}
     </div>
   );
 }
