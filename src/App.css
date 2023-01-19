@@ -117,11 +117,15 @@ nav ul li a:hover ,nav li a.active{
 }
 
 /* --farmer card-- */
+.available_farmers{
+  margin-top: 3rem;
+}
 .available{
   text-align: center;
 }
 .farmer_cards{
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-around;
   gap: 2rem;
   margin: 4rem;
@@ -135,10 +139,32 @@ nav ul li a:hover ,nav li a.active{
   padding: 1rem;
   margin: 4rem;
   border-radius: 2rem;
+  transition: scale .3s ease-in-out;
   background: radial-gradient(96.41% 96.41% at 5.28% 100%, #FFA7A7 0%, rgba(248, 250, 134, 0.416) 100%) ;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.farmer_card:hover{
+  transform: scale(1.02);
 }
 .farmer_img{
   width: 40%;
   border-radius: 100%;
+}
+
+
+/* dashbosrd */
+
+th{
+  color: rgb(59, 174, 251);
+  font-weight: 800;
+}
+th, td {
+  border-bottom: 1px solid rgb(8, 8, 8);
+  padding: 2rem;
+}
+.Table_dashborad{
+  margin-top: 2rem;
+  border: 1rem;
+  margin-inline: auto;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }

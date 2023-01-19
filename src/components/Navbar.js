@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from '../images/logo.png'
+import {FaUser} from 'react-icons/fa'
 
 export const Navbar = () => {
   return (
@@ -19,9 +20,8 @@ export const Navbar = () => {
                     </ul>
                 </nav>
                 <div className="icon">
-                    <a href="cartpage.html"><i className="fas fa-cart-plus"></i></a>
+                    <FaUser/>
                 </div>
-                <img src="img/menu.png" className="menuicon" onclick="menutoggle()"/>
             </div>
         </div>
     </div>
