@@ -4,16 +4,18 @@ import { Dashboard } from './components/Dashboard';
 import { Footer } from './components/Footer';
 import { Navbar } from './components/Navbar';
 import { Home } from './pages/Home';
+import { Products } from './pages/Products';
 import { Product_detail } from './pages/Product_detail';
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Home/>
+      {/* <Home/> */}
       {/* <Footer/> */}
       {/* <Product_detail/> */}
       {/* <Dashboard/> */}
+      <Products/>
     </div>
   );
 }
