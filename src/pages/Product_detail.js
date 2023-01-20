@@ -23,38 +23,24 @@ export const Product_detail = () => {
                 <a href="#" className="btn">Add to cart</a>
                 <h3>Product details</h3>
                 <br/>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, numquam atque similique aliquam cum, dignissimos error adipisci corporis assumenda a repellendus porro dolore aliquid modi!</p>
+                
             </div>
         </div>
-        <div className="available_farmers">
-            <h1 className="available">
-                Available Farmers
+        <div className="farmer_produced">
+            <h1 className="supplyer">
+                Good Supplyer
             </h1>
-            <div className="farmer_cards">
-                <div className="farmer_card">
-                    <img className='farmer_img' src={Nilesh} alt="" />
-                    <div className="farmer_detail">
-                        <h3 className="name">Yukesh Katwal</h3>
-                        <h5 className="occupation">Cauliflower farmer</h5>
+            <div className="supplyer_card">
+                    <img className='supplyer_img' src={Nilesh} alt="" />
+                    <div className="supplyer_detail">
+                        <h2 className="name">Yukesh Katwal</h2>
+                        <h3 className="occupation">Cauliflower farmer</h3>
+                        <h4 className="email">...@gmail.com</h4>
+                        <h5 className="Phone Number"></h5>
                         <div className="rating">stars</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, numquam atque similique aliquam cum, dignissimos error adipisci corporis assumenda a repellendus porro dolore aliquid modi!</p>
+                        <div className="coordinates">00000000</div>
                     </div>
-                </div>
-                <div className="farmer_card">
-                    <img className='farmer_img' src={Nilesh} alt="" />
-                    <div className="farmer_detail">
-                        <h3 className="name">Yukesh Katwal</h3>
-                        <h5 className="occupation">Cauliflower farmer</h5>
-                        <div className="rating">stars</div>
-                    </div>
-                </div>
-                <div className="farmer_card">
-                    <img className='farmer_img' src={Nilesh} alt="" />
-                    <div className="farmer_detail">
-                        <h3 className="name">Yukesh Katwal</h3>
-                        <h5 className="occupation">Cauliflower farmer</h5>
-                        <div className="rating">stars</div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
