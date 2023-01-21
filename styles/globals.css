@@ -1,0 +1,406 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+:root {
+    --color1: #2c321a;
+    --color2: linear-gradient(243.89deg, #FFFDD1 -2.59%, #FFF1EF 95.71%);
+    --product_color: rgb(63, 59, 59);
+}
+
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+body{
+    background: linear-gradient(243.89deg, #FFFDD1 -2.59%, #FFF1EF 95.71%)
+
+}
+
+.navbar {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    height: 5rem;
+}
+
+nav {
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+}
+
+nav ul li {
+    margin: -10px;
+    color: black;
+    font-weight: 500;
+}
+
+nav ul li a {
+    padding: 5px;
+    margin: 0 20px;
+}
+
+nav ul li a:hover,
+nav li a.active {
+    color: var(--color1);
+}
+
+.logo a img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.logo {
+    width: 10rem;
+
+}
+
+.sliderImg {
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 2rem;
+}
+
+/* --single product detail--- */
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cols {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.single-product {
+    margin-top: 50px;
+}
+
+.single-product .cols img {
+    padding: 0;
+}
+
+.single-product .cols {
+    padding: 20px;
+}
+
+.single-product h4 {
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.single-product select {
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.single-product input {
+    width: 50px;
+    height: 40px;
+    border: 1px solid var(--color1);
+    font-size: 20px;
+    margin-right: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.single-product input:focus {
+    outline: none;
+}
+
+.single-product .fas {
+    margin-left: 10px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: red;
+    padding: 5px 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    color: white;
+    transition: background 0.5s;
+}
+
+/* --farmer card-- */
+.available_farmers {
+    margin-top: 3rem;
+}
+
+.available {
+    text-align: center;
+}
+
+.farmer_cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    gap: 2rem;
+    margin: 4rem;
+}
+
+.farmer_card {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* padding: 1rem; */
+    margin: 4rem;
+    /* border-radius: 2rem; */
+    transition: scale .3s ease-in-out;
+    /* background: radial-gradient(96.41% 96.41% at 5.28% 100%, #FFA7A7 0%, rgba(248, 250, 134, 0.416) 100%); */
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.farmer_card:hover {
+    transform: scale(1.02);
+}
+
+.farmer_img {
+    height: 40vh;
+    border-radius: 12px;
+    /* width: 60%; */
+    /* border-radius: 100%; */
+}
+
+/* dashbosrd */
+
+th {
+    color: rgb(59, 174, 251);
+    font-weight: 800;
+}
+
+th,
+td {
+    border-bottom: 1px solid rgb(8, 8, 8);
+    padding: 2rem;
+}
+
+.Table_dashborad {
+    margin-top: 2rem;
+    border: 1rem;
+    margin-inline: auto;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* about */
+.heading {
+    text-align: center;
+    margin: 34px;
+    font-size: 30px;
+}
+
+.aboutInfo {
+    color: black;
+    margin: 2rem 5rem;
+}
+
+.about {
+    margin: 45px;
+    display: flex;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.mission,
+.vision,
+.achieve {
+    height: 320px;
+    margin: 14px;
+    max-width: 320px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+    border-radius: 1rem;
+    background: radial-gradient(96.41% 96.41% at 5.28% 100%, #FFA7A7 0%, rgba(248, 250, 134, 0.416) 100%);
+}
+
+.mission img {
+    display: flex;
+    margin: auto;
+    height: 45px;
+    width: 45px;
+}
+
+.vision img {
+    display: flex;
+    margin: auto;
+    height: 45px;
+    width: 45px;
+}
+
+.achieve img {
+    display: flex;
+    margin: auto;
+    height: 45px;
+    width: 45px;
+}
+
+.mission:hover {
+    background-color: lightblue;
+    transform: scale(1.02);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.vision:hover {
+    background-color: lightblue;
+    transform: scale(1.02);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.achieve:hover {
+    background-color: lightblue;
+    transform: scale(1.02);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    height: 50px;
+
+    text-align: center;
+    padding: 12px;
+
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 30px 114px;
+}
+
+p {
+    padding: 2px 32px;
+    ;
+}
+
+
+.supplyer_card {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin: 4rem;
+    border-radius: 2rem;
+    transition: scale .3s ease-in-out;
+    background: radial-gradient(96.41% 96.41% at 5.28% 100%, #FFA7A7 0%, rgba(248, 250, 134, 0.416) 100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    height: 27rem;
+    width: 59rem;
+    justify-content: space-evenly;
+  }
+  .supplyer_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+  }
+  .supplyer_detail{
+    text-align:justify;
+    line-height: 1.7rem;
+  }
+
+
+
+
+
+
+
+
+  .heading{
+    text-align:center;
+    margin:34px;
+    font-size:30px;
+  }
+  .aboutInfo{
+    color:black;
+    margin: 2rem 5rem;
+  }.about{
+    margin:45px;
+    display:flex;
+    justify-content: center;
+    min-height:400px;
+  }
+  
+  .mission,.vision,.achieve{
+     height:320px;
+     margin:14px;
+     max-width:320px;
+     box-shadow: 3px 5px 5px rgba(1,1,1,0.2);
+     border-radius: 1rem;
+     background: radial-gradient(96.41% 96.41% at 5.28% 100%, #FFA7A7 0%, rgba(248, 250, 134, 0.416) 100%) ;
+  }
+  .mission img{
+    display:flex;
+    margin:auto;
+    height:45px;
+    width:45px;
+  }
+  .vision img{
+    display:flex;
+    margin:auto;
+    height:45px;
+    width:45px;
+  }
+  .achieve img{
+    display:flex;
+    margin:auto;
+    height:45px;
+    width:45px;
+  }
+  .mission:hover{
+    background-color :lightblue;
+     transform:scale(1.02);
+     cursor:pointer;
+     transition: 0.3s ease-in-out;
+  }
+  .vision:hover{
+    background-color :lightblue;
+     transform:scale(1.02);
+     cursor:pointer;   
+     transition: 0.3s ease-in-out;
+  }
+  .achieve:hover{
+    background-color :lightblue;
+     transform:scale(1.02);
+     cursor:pointer;  
+     transition: 0.3s ease-in-out;
+  }
+  .footer{
+    background-color: black;
+    color:white;
+    height:50px;
+  
+    text-align:center;
+    padding:12px;
+  
+  }
+  h2{
+    font-size:1.5rem;
+    margin: 30px 114px;
+  }
